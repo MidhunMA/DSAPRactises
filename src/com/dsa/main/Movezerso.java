@@ -19,6 +19,7 @@ public class Movezerso {
 		}
 		return arr;
 	}
+	
 
 	public static int[] shiftZerosToEndEasy(int[] numbers) {
 		int[] result = new int[numbers.length];

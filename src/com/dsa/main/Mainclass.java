@@ -13,7 +13,11 @@ public class Mainclass {
 		System.out.println(Arrays.toString(arr));
 		Movezerso.shiftZerosEnd(arr);
 		System.out.println(Arrays.toString(arr));
-		//Movezerso.shiftZerosToEndEasy();
+		//Movezerso.shiftZerosToEndEasy(arr);
+		ResizeArray.doResizeArray(arr,arr.length*2);
+		int[] sequenced=new int[] {1,6,4,3,2};
+		System.out.println(MissingNumberInSequenceArray.doMissingNumberInSequenceArray(sequenced));
+		System.out.println(StringPalindrom.checkStringPalindrom("Malayalam"));
 		
 
 	}
