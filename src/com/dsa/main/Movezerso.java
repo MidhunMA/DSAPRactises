@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Movezerso {
 
 	public static int[] shiftZerosEnd(int[] arr) {
-
+//take two variable one for non zero elemt , one for zero , when conditon like that swap. else if j in 0 dont increase j ,when j is non zero increase j 
 		int j = 0;
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] != 0 && arr[j] == 0) {
